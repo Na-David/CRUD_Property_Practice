@@ -11,6 +11,7 @@ namespace CRUD_Pages.Data
         {
         }
 
-        public DbSet<Property> Properties { get; set; }
+        public DbSet<Property> Properties { get; set; } = null!;
+        public DbSet<Location> Locations { get; set; } = null!;
     }
 }
