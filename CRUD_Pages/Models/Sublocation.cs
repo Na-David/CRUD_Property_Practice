@@ -17,6 +17,6 @@ namespace CRUD_Pages.Models
 
         [Display(Name = "Location")]
         public Location? LocationRef { get; set; }
-        public int LocationId { get; set; } = 0;
+        public int? LocationId { get; set; } = 0;
     }
 }
