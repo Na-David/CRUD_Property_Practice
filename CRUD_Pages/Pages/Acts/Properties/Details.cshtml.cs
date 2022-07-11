@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CRUD_Pages.Data;
 using CRUD_Pages.Models;
 
-namespace CRUD_Pages.Pages.Acts
+namespace CRUD_Pages.Pages.Acts.Properties
 {
     public class DetailsModel : PageModel
     {
