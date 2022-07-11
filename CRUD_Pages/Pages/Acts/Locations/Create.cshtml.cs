@@ -21,7 +21,7 @@ namespace CRUD_Pages.Pages.Acts.Locations
 
         public IActionResult OnGet()
         {
-        ViewData["PropertyId"] = new SelectList(_context.Properties, "Id", "Id");
+            ViewData["PropertyId"] = new SelectList(_context.Properties, "Id", "Name");
             return Page();
         }
 

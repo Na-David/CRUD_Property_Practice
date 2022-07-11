@@ -12,6 +12,7 @@ namespace CRUD_Pages.Models
         public string Name { get; set; } = "";
         public bool Active { get; set; }
         public string Property { get; set; } = "";
+        [Display(Name = "Property")]
         public Property? PropertyRef { get; set; }
         public int? PropertyId { get; set; }
 
