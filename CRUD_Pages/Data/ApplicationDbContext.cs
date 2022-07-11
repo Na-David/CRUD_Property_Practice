@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using CRUD_Pages.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUD_Pages.Data
@@ -9,5 +10,7 @@ namespace CRUD_Pages.Data
             : base(options)
         {
         }
+
+        public DbSet<Property> Properties { get; set; }
     }
 }
